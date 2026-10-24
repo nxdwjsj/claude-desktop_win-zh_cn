@@ -1,0 +1,490 @@
+## desktop
+suspect_count: 8
+- +RjuqI4569 [likely_untranslated]: Claude 通过 HostName 连接 {host}，因此 ssh 会跳过 Match host 块。你在那里的会话都已保留，把 SSH 配置里的 Match host 改为 Match originalhost 后就会重新连接。
+- DPOeWuNpqb [likely_untranslated]: 允许 Claude 在 Browser 窗格中操作 {host}？
+- TSBXGOLwZT [likely_untranslated]: 你的 SSH 配置将 UserKnownHostsFile 设为 /dev/null 或 none。请将其设为 ~/.ssh/known_hosts。或者，如果希望在每次连接时接受任何密钥，可将 /dev/null 与 StrictHostKeyChecking accept-new 配合使用。你在那里的会话都已保留。
+- goOkyh9PF5 [likely_untranslated]: 无法读取此仓库当前的 Git origin
+- ieBAXijLM8 [likely_untranslated]: {host} 拒绝了 Claude 用于复制文件的 SFTP 子系统，因此你在那里运行的会话无法重新连接，直到启用它（sshd_config: Subsystem sftp）——如果主机不属于你，请咨询主机管理员。
+- mnYepCeDw1 [likely_untranslated]: 仅当你更改了此 origin 时才重新固定。之后，Claude 会将受保护的文件（.claude、.mcp.json 等）从新 origin 的默认分支合并到你的 Code 会话中。
+- tI4fQN4Q3Q [likely_untranslated]: 纯 ASCII 之外的字符将显示为 ‹U+…› 代码点。
+- wyN59otbn9 [likely_untranslated]: 已停止重新连接到 {host}：这台电脑上的 ssh 版本低于 Claude 所需的 OpenSSH 7.6。你在那里运行的会话将保留；更新 ssh 后将重新连接。
+
+## frontend
+suspect_count: 456
+- +NU+LdZS9a [likely_untranslated]: 你的 SSH 配置中的 HostName 不是普通主机名或 IP 地址，因此无法检查此连接。请修改它，然后退出并重新打开 Claude。
+- +NtGuRTRpM [likely_untranslated]: OpenDyslexic
+- +pGqOahbkA [likely_untranslated]: 你再次达到了 Free 方案的消息上限。Pro 的用量更高，Max 的用量最高。
+- +th3gQKcs2 [likely_untranslated]: Claude 想要更改 Outlook 日历中的一个事件
+- +wpyxjaWmw [likely_untranslated]: 退出并重新打开 Claude；如果问题再次出现，请让 IT 管理员允许 Claude 使用系统 OpenSSH 客户端
+- //94Dgdpkn [likely_untranslated]: 存储的 GitLab 令牌已被拒绝。请在 GitLab 配置中轮换该令牌，然后重试。
+- /BEAsVLzhi [likely_untranslated]: 请在 SSH 配置中把此主机的 HostName 改为纯主机名或 IP 地址，然后发送一条消息重试。
+- /E7aYcf6cf [likely_untranslated]: Windows 设备上助手可执行文件的绝对路径，在该平台用它替代 Helper script。留空则在所有操作系统上都使用 Helper script。
+- /FLZJWHUdp [likely_untranslated]: SFTP 无法在主机上启动
+- /P89t+aJkQ [likely_untranslated]: Git 不会同时在两个文件夹中检出同一分支。请在仓库中运行 git worktree list 查看哪个文件夹占用此分支，然后把该文件夹切换到其他分支。
+- /stVMU8uYO [likely_untranslated]: 例如：你是 Acme Corp 的 Slack 助手。优先给出简洁的回答，并在相关时链接到内部文档。
+- /ycva1zNM1 [likely_untranslated]: 根据打开或附加文件的 Microsoft Purview 敏感度标签，允许或拒绝加载项功能。
+- 05G20xfEHj [likely_untranslated]: 管理员已为你的组织开启 Claude Science，但成员还没有开始使用。 有访问权限的成员可以收到一封电子邮件，了解如何下载应用并登录。
+- 0MlG3IKjb4 [likely_untranslated]: 请确认 Claude Code 正在 {host} 上运行且已开启 Remote Control，然后启动新会话。
+- 0fHndEuYfD [likely_untranslated]: 不支持此主机。请使用 {hosts}，或使用由你所在组织配置的 GitHub Enterprise 或 GitLab 实例。
+- 0sJMp1ryM0 [likely_untranslated]: 语句 {statement}：actions 必须是至少包含一个操作的列表。
+- 1B7Amb1c84 [likely_untranslated]: 非营利组织 Premium 席位
+- 1J1uyKIMru [likely_untranslated]: 非营利组织 Standard 席位
+- 1ecQrBH0jq [likely_untranslated]: 无法生成 WorkOS 设置链接。请稍后重试。
+- 1ikBz36khX [likely_untranslated]: Deck Checker
+- 1oiEx/eb96 [likely_untranslated]: 自动同步的自动 webhook 设置还需要 Webhook: Create 和 Delete（在 Integrations 下）以及 Maintainer 角色——没有这些，启用自动同步时会要求手动粘贴一次 webhook。
+- 1uc6sbtmBk [likely_untranslated]: 你的 SSH 配置需要用「Match originalhost」替代「Match host」。
+- 1zTfz4MB0F [likely_untranslated]: {count} 个 Global Access 席位
+- 2H1axEwm2X [likely_untranslated]: 等待你用 Touch ID 确认。
+- 2e/xV1HXgZ [likely_untranslated]: 此修改会更改 package.json 中的 Git 钩子工具设置（lint-staged、husky、commitlint 等），无法从此面板保存。请在编辑器或终端中进行该修改；其它 package.json 修改可正常保存。
+- 2hcrrtJGEt [likely_untranslated]: GitLab 拒绝了该请求。令牌可能缺少某项权限。
+- 2t34sKY80K [likely_untranslated]: 请让 plugin.json 中的名称保持为「{name}」：它是插件的 ID，无法在此更改。若要更改人们看到的名称，请改为设置 displayName。
+- 2uD03/Inn8 [likely_untranslated]: 此主机的 GitLab 配置没有可用的访问令牌。请添加令牌后重试。
+- 2xyOZNVZ/u [likely_untranslated]: 你的 SSH 配置含不受支持的 HostName
+- 3GvSBBLInN [likely_untranslated]: 你组织为「发布到组织」托管的接入服务的 OpenAPI 描述。
+- 3SHQ+DxHRI [likely_untranslated]: 在 Roaming AppData 被重定向到网络共享的 Windows 设备上，将应用数据存储在本地 AppData 中，因为 Cowork 任务无法从网络共享运行。
+- 3SIbPjxbmJ [likely_untranslated]: 当我能看到你手头实际在忙什么时，我表现最好，而你的收件箱是最快的切入点。你的团队尚未启用 Gmail 或 Outlook。请让管理员开启其中一个。
+- 3Z2Uedr6SP [likely_untranslated]: 连接 GitHub、GitHub Enterprise 或 GitLab，让 Claude 能访问你组织的仓库。每个产品都在各自的设置中选择仓库。
+- 3cM2SopKM+ [likely_untranslated]: Claude 通过 HostName 连接到 {host}，因此 ssh 会跳过用于设置该主机密钥或路由的 Match host 块。
+- 3ipa7vmQ96 [likely_untranslated]: 不支持 ProxyJump
+- 3r6zdwXARy [likely_untranslated]: 不会推送任何内容；{branch} 已在 origin 上。将在 {environment} 中启动一个没有仓库的云会话（origin 不在 github.com 上）。
+- 3rlJEfT+Tj [likely_untranslated]: GitLab 实例
+- 3zQxTFY9Tk [likely_untranslated]: 确认 SSH 密钥指向的文件位于这台电脑上，且是 OpenSSH 私钥，而不是 PuTTY 的 .ppk。如果它带口令，请重试并在提示时输入。
+- 40TePbRdcZ [likely_untranslated]: 在会话 mock 中找到了竞态问题。要运行认证测试套件确认它已消失吗？
+- 4Mv203UPw0 [likely_untranslated]: 非营利组织 Premium 席位
+- 4t3B2tra+X [likely_untranslated]: 与 Outlook、OneDrive 和 SharePoint 配合使用
+- 5DtN9EPdXb [likely_untranslated]: Claude Code 已在远程控制连接之前停止。请发送一条消息重新启动它，然后开启 Remote Control。
+- 5JhdV3zOph [likely_untranslated]: Datapack 构建器
+- 5Kdc03kG/c [likely_untranslated]: 在终端中按 Enter，使用 winget 安装 Git for Windows 并按提示操作，然后请在启动此会话的会话中让 Claude 重新启动它。
+- 5Mmw19prnf [likely_untranslated]: 此文件位于运行此 Remote Control 会话的机器上，无法从这里加载。它可能在该会话的工作目录之外，也可能已被移动或删除。
+- 5P3agS06r0 [likely_untranslated]: 连接 GitLab 实例
+- 5ewqd+5NIm [likely_untranslated]: 不推送任何内容。在 {environment} 中启动一个不带仓库（origin 不在 github.com 上）的云会话。
+- 5nsD3bOvY7 [likely_untranslated]: {partnerName} 已打开，但不接受来自 Claude 的连接。如果你尚未登录 {partnerName}，请先登录。在 {partnerName} Business 上，请让管理员允许 AI 智能体自动填充。然后退出并重新打开 {partnerName}。
+- 5yS5nHC9sP [likely_untranslated]: WebM 视频
+- 63NOuwomJM [likely_untranslated]: 默认模型 effort
+- 6Bwp72qEDm [likely_untranslated]: 从 Granola 回顾我最近一次会议：关键决策、带负责人的行动项，以及我个人承诺过的任何事。最后给出我今天应做的那一项后续工作。
+- 6DKxys4OMY [likely_untranslated]: 此拉取请求更改了工作流文件，而你的 GitHub CLI 登录缺少 workflow 范围。请运行 <code>gh auth refresh -s workflow</code> 添加它。
+- 6KutNgB81P [likely_untranslated]: 包含隐藏字符，显示为 U+XXXX；按原样保存
+- 6cacFh6uvE [likely_untranslated]: 最高 effort
+- 6dvVcx/6Qa [likely_untranslated]: 使用 {skillName} 为 [Datadog] 创建竞争格局分析。包括与 Splunk、Dynatrace、New Relic 和 Elastic 的 2x2 定位矩阵，以及竞争护城河和战略影响。
+- 6kB702IYbK [likely_untranslated]: 按 Control+Shift+左箭头或右箭头移动终端
+- 7CkWaKY5Xt [likely_untranslated]: 在 Claude Academy 中，让组织成员向 Claude 提问并使用由 Claude 驱动的课程工具。
+- 7HL2RhYj7k [likely_untranslated]: 你的详细信息和文档会与 Anthropic 的验证合作伙伴 Goodstack 共享，并按照 <privacy>Goodstack 的隐私政策</privacy> 处理。
+- 7NaVM8ZamA [likely_untranslated]: GitLab 仓库 URL
+- 7NdZs//W6o [likely_untranslated]: 编辑 GitLab 配置
+- 7YeeQQuLb+ [likely_untranslated]: 主机上不支持 SFTP
+- 7cAIZ6PLSg [likely_untranslated]: 按 Delete 或 Backspace 关闭侧边对话
+- 7jf2//vmiy [likely_untranslated]: 邀请你的成员使用 Claude Science
+- 8VCXOe/Yp8 [likely_untranslated]: Claude Desktop 防火墙允许列表：每行一个主机名，除 443 外需标注 :port
+- 8bH3H+lgPR [likely_untranslated]: {count} 个 Beneficial Deployments Premium 席位
+- 8fCcgh9uB2 [likely_untranslated]: 另一个 GitHub 主机上的安装未选择任何仓库。请切换到那个主机选择至少一个仓库，或将其设为 None。
+- 8v0j11wApq [likely_untranslated]: GitHub Enterprise 和 GitLab
+- 90yYs6Nli0 [likely_untranslated]: Beneficial Deployments Premium
+- 93hUHzRSTN [likely_untranslated]: Claude Design [standalone]
+- 95RGocLLIp [likely_untranslated]: 连接已中断，且 {host} 的密钥文件是无法使用的 PuTTY .ppk 文件。请将其导出为 OpenSSH 密钥（PuTTYgen → Conversions），使用该文件后重新连接。
+- 97Bp8GM9AF [likely_untranslated]: 在 GitLab 中打开
+- 9LQeVSv1Cn [likely_untranslated]: Ghost
+- 9YeYXUnkzk [likely_untranslated]: 为 {host} 设置的密钥文件是无法使用的 PuTTY .ppk。请在 PuTTYgen 中选择 Conversions → Export OpenSSH key，然后改用该文件。
+- 9nzOFaNri+ [likely_untranslated]: {host} 允许的每个连接 SSH 会话数太少。请让管理员在 sshd_config 中调高 MaxSessions（默认为 10），然后重试。
+- 9rAo4EFKjq [likely_untranslated]: 识别不稳定测试——过去一周内在同一代码上既通过又失败的测试。
+
+1. 从默认分支拉取过去 7 天的 CI 工作流运行。重点关注测试作业。
+2. 对于每次测试失败，记录测试名称、文件和运行的提交。如果测试在某次提交中失败，但同一测试在该提交上也通过过（在重试、重新运行或同一 SHA 的后续运行中），则该测试是不稳定的。
+3. 按不稳定率（失败次数 ÷ 总运行次数）和重试浪费的总时间排名不稳定测试。
+4. 对于前 5 名，包括：测试名称和文件路径、不稳定率、同一提交上一个失败运行和一个通过运行的链接，以及如果一致则包含失败消息模式。
+5. 注明本周新出现的不稳定测试与上周报告中出现的测试。
+6. 对于第 1 名最不稳定测试，尝试修复：阅读测试及其测试的代码，确定可能的原因（竞态条件、未等待的承诺、时间/顺序依赖、共享状态、网络依赖），应用针对性修复，在多次本地运行中验证通过，并打开标题为 "fix(flaky): '<test name>'" 的拉取请求，在描述中包含根本原因分析。如果无法确定安全修复，打开暂存该测试的草稿 PR（跳过并附带注释链接到此报告）。
+
+以排名表形式呈现，随后是每个测试的详细信息，最后是修复 PR 的链接。如果没有找到不稳定测试，简要确认并附上扫描的测试运行总数。
+- A/1jNUCBHf [likely_untranslated]: 成员将能够从未经验证的设备，通过 Claude Code Remote Control 或 Cowork 电脑访问，远程连接到他们电脑上的 Claude。你可以随时重新开启此功能。
+- A6wIaEWfFK [likely_untranslated]: 在 GitLab 上打开仓库
+- AQh71eVWdc [likely_untranslated]: 你的组织将 Claude 使用的 ssh 程序设为 OpenSSH {version}；Claude 需要 7.6 或更高版本。请联系 IT 管理员，然后重试。
+- ARGFeWO3Hf [likely_untranslated]: 你已通过 Claude for Teachers 验证。你的教学技能已加载，且可以使用教师专属连接器。
+- AZmUXs5oq1 [likely_untranslated]: 按 Shift+Delete 或 Shift+Backspace 从最近记录中移除
+- AwAEQkPnqM [likely_untranslated]: 使用 {skillName} 为 [CrowdStrike] 的 FY2025 第三季度财报创建收益更新。涵盖与共识的超预期/不及预期、关键驱动因素、指引变更和更新后的论点。
+- Ax1tW3FO4+ [likely_untranslated]: Microsoft 未能让 Claude 完成连接 {serverName}。你组织的登录策略要求进行多因素身份验证检查，而 Claude 的请求未满足该要求。请向 IT 管理员求助，并把这条完整消息发给他们。他们可以在 Entra 登录日志的「Request ID」列中搜索它的 Entra Trace ID（如果存在的话）（也请查看「用户登录（非交互式）」）。
+- B4gvdxADlU [likely_untranslated]: 你的组织将 Claude 设置为使用 ssh 程序 Microsoft OpenSSH {version}；Claude 需要 9.4 或更高版本。联系你的 IT 管理员，然后重试。
+- BELOJo8U2Z [likely_untranslated]: 删除 GitLab 配置
+- BFvWbbq0Td [likely_untranslated]: Academy 中的 Claude
+- BG/gL7BolT [likely_untranslated]: 持有你 SSH 密钥的智能体拒绝将它用于 {host}：密钥被锁定，或者 1Password、Secretive 之类的应用请求了你的批准但未获批准。请解锁，或在它询问时予以批准，然后重试。
+- BbmdL1p9kz [likely_untranslated]: 我的狗叫 Beans
+- BeGeh+2YLE [likely_untranslated]: 使用 {skillName} 为 [ServiceNow] 创建 DCF 模型。包括 5 年预测、WACC 计算、通过退出倍数计算的终值，以及贴现率和增长的敏感性分析。
+- BfzC9GxtSg [likely_untranslated]: 找出我两周内没有更新的 Jira 问题，阅读它们的评论，并告诉我每个问题可能的阻塞原因——再加上建议的下一步。区分真正卡住的和只是被遗忘的。
+- BootstrapHeadersHint [likely_untranslated]: 每次获取引导配置时发送的 HTTP 请求头。用它代替在 URL 中内嵌 user:pass@。
+- C2/m8hJLLS [likely_untranslated]: 请让你的 IT 管理员把 sshTransport 设为 system-openssh
+- C3Wpt+hcVP [likely_untranslated]: 模拟器内（axbridge）
+- C7oCeM26LX [likely_untranslated]: Claude 无法自动创建 Webhook —— 这需要一个具有 api 作用域和 Maintainer 角色的组织令牌。在 GitLab 中添加一次，自动同步即可生效。
+- CIKoaKKKI9 [likely_untranslated]: 一个可执行文件，它在 stdout 上输出包含单个 clientSecret 键的 JSON 对象作为客户端密钥；任何其他输出都会被拒绝。优先于内联值。
+- CJ3vY88xuh [likely_untranslated]: GitLab 不会向细粒度令牌公开版本或令牌有效期。
+- CQ6e0IH3JA [likely_untranslated]: 从 Figma 拉取设计稿和评论
+- CTW7SfFmUa [likely_untranslated]: 继续即表示你同意<terms>K-12 服务条款</terms>和<dpa>美国 K-12 数据处理协议</dpa>。教育数据能否以及如何在 Claude for Teachers 中使用，取决于你所在学区和州的规定。
+- CZW2U0Mwhb [likely_untranslated]: ADMIT ONE  •  VALID FOR: CLAUDE PRO & MAX
+- Cd36FpihD4 [likely_untranslated]: 用 Claude Science 加速发现
+- CgOsaJqMyN [likely_untranslated]: 检查我最近的 Figma 文件的一致性：与文件其余部分不一致的颜色、文字样式和间距值。给我一份按问题显眼程度排序的修复清单。
+- CkU2BFhxiC [likely_untranslated]: 应用为 SSH 会话运行的 OpenSSH ssh 程序的绝对路径。未设置：用户 PATH 中的第一个 ssh。
+- ClaudeCodeProcessWrapperEnabledHint [likely_untranslated]: 通过 Claude Code 受管设置中的启动器（processWrapper）启动 Claude Code —— 包括此设备的，以及 SSH 会话所用 SSH 主机的。默认关闭。
+- Cq/e5kUKjY [likely_untranslated]: GitLab 配置已更新。
+- DCp7c8wEVN [likely_untranslated]: 无法访问此 GitLab 仓库。请检查它是否存在，以及你组织的 GitLab 访问令牌能否读取它。
+- Dj5R0agTRR [likely_untranslated]: GitLab 返回了一个服务器错误。
+- DmP6qRI11b [likely_untranslated]: Thread ID 已复制到剪贴板。
+- E3A4/IeOOv [likely_untranslated]: 保持不变，因为它在你的主目录之外；请将其复制到 ~/.ssh，或在原位置对它执行 chmod
+- EEQU3vVY+s [likely_untranslated]: 这将永久移除此 GitLab 配置，依赖它的应用市场同步也会停止工作。此操作无法撤销。
+- ELuhOGnrKH [likely_untranslated]: 使用 {skillName} 为 [Shopify] 构建可比公司分析。包括 10 家同行企业，提供 LTM 和 NTM 基础的 EV/营收、EV/EBITDA 和 P/E，以及隐含估值范围。
+- ESje3zXr+t [likely_untranslated]: 在你的 GitLab 项目中，打开「设置」→「Webhook」→「添加新 Webhook」，然后粘贴下面的 URL。在「签名令牌」下，选择「生成签名令牌」，再用下面的签名令牌替换生成的值。启用「推送事件」并保存。
+- EkO2Nvxza0 [likely_untranslated]: 在 PowerShell 中运行
+- EorfioVaPJ [likely_untranslated]: OpenDyslexic
+- F+zBeXYwu5 [likely_untranslated]: 请在 DNS 服务商处将其添加为 TXT 记录，Host 设为 @。
+- F/IKmdaRtF [likely_untranslated]: 按 Control+Shift+左箭头或右箭头移动文件
+- F3ZRLLd01+ [likely_untranslated]: Claude Science 的分子查看器：一个蛋白质结构，其结合口袋上钉着一条评论
+- FHsgS17wNE [likely_untranslated]: Compliance API 设置以及从所有组织读取数据的合规密钥都在上级组织中管理。
+- FVN9iMgt5B [likely_untranslated]: 启用 skill-creator 以继续
+- FWr9M85tid [likely_untranslated]: 较早的消息只有在远程机器连接时才能加载，因为它的 SSH shell 是 cmd.exe 或 PowerShell。
+- FfCznMutgM [likely_untranslated]: 为我最新的 Figma 设计写一份开发交接说明：组件、间距、颜色和预期行为，按屏幕逐一组织——就是开发本来会来问我的那份文档。
+- Fl4JaiqfDs [likely_untranslated]: Claude for Teachers 仅面向教育工作者，且你必须年满 18 岁。审核由 Anthropic 的验证合作伙伴 Goodstack 负责，大多数会在 24 小时内完成，但高峰期可能需要最多 3 天。
+- G2rJKgcsFu [likely_untranslated]: 你的组织配置的 GitLab 访问令牌被拒绝。请让管理员在管理员设置中更新它。
+- GJLbwAW/M6 [likely_untranslated]: 它专为简单、可重复的任务和日常对话而设计，不适合复杂工作，也不适合 Cowork、Claude Code、Claude Design 和 Claude Science 这类工具。成员仍可以为任意对话选择其他模型。
+- GczcdrMY1b [likely_untranslated]: 远程服务器的 OAuth：设为 true 可自动注册客户端，也可填预先注册的客户端 ID 以及租户和范围，或使用模式 “hosted” 以采用 Anthropic 签名的身份。
+- Gd7eCYYbVn [likely_untranslated]: Claude 会通过 SFTP 将其文件复制到 {host}，因此请让该主机的管理员启用它（在 sshd_config 中设置 Subsystem sftp internal-sftp），然后重试。
+- GuiBDFupQ+ [likely_untranslated]: 请确认 SSH 密钥指定的文件位于这台电脑上，是 OpenSSH 私钥而不是 PuTTY 的 .ppk 文件，并且只有你的账户可以读取。如果它设置了密码短语，请重试并在提示时输入。
+- GwScopeNoResourceWarn [likely_untranslated]: 未设置 API 资源范围。在那些由请求范围决定访问令牌受众的 IdP 上（例如 Entra ID），这会生成一个用于 IdP 自身 API 的令牌，而不是你的网关。请添加网关的 API 范围（Entra：api://GATEWAY_APP_ID/.default）。如果你的 IdP 通过带外方式设置令牌受众（Keycloak 受众映射器、Auth0 默认受众、Okta 自定义授权服务器受众），请忽略此项。
+- H4Ea6XAuEf [likely_untranslated]: 内置工具或按参数限定规则的审批策略，例如 Bash(curl *)。「ask」要求每次匹配的调用都经过用户批准；「allow」是默认值。
+- HBPYbmIcrk [likely_untranslated]: 为 coworkEDRIntegration 所指向的软件包签名的供应商 ID。使用该键时为必填，否则不会安装任何内容。仅从设备管理读取。
+- HC3Dey2hCO [likely_untranslated]: GitHub Enterprise 和 GitLab 的设置已移至 Git 提供方。
+- HM5esk9sal [likely_untranslated]: {host} 的 SSH 配置不会保存主机密钥。请将 UserKnownHostsFile 设置为 ~/.ssh/known_hosts，然后运行该例程。
+- Hw4Ht0ZfCy [likely_untranslated]: 无法切换到 Thinking 视图
+- Hx+v0tXA3u [likely_untranslated]: 分支推送被阻止，且找不到可用于启动云会话的已推送分支。某个 pre-push 钩子或服务端检查拒绝了此次推送。在能够推送的机器发布这些提交之前，它们会留在此设备上。
+- I4XHm8hYft [likely_untranslated]: 令牌或 API 密钥请使用 Collector 身份验证或请求头辅助脚本；此处的静态请求头仅用于非密钥的路由信息（租户 ID、组织路由）。
+- ICwyc4SILq [likely_untranslated]: 添加 GitLab 实例
+- IFEIanbZAY [likely_untranslated]: 你对 {name} 的更改未保存，因为这些更改会修改 Git 钩子工具设置（lint-staged、husky、commitlint 等），无法在此处保存。请在编辑器或终端中进行此更改；该文件的其他编辑会正常保存。
+- IdpScopeNoResourceWarn [likely_untranslated]: 未设置 API 资源范围。在由请求范围决定访问令牌受众的 IdP 上（例如 Entra ID），这会生成一个用于 IdP 自有 API 的令牌，而不是你的网关或代理。请添加其 API 范围（Entra：api://APP_ID/.default）。如果你的 IdP 通过带外方式设置令牌受众（Keycloak 受众映射器、Auth0 默认受众、Okta 自定义授权服务器受众），请忽略此项。
+- IhfdPLXvbc [likely_untranslated]: 此工件通过链接或邀请分享时，无法切换到 Latest。请先更改访问权限。
+- InfIdpOidcShort [likely_untranslated]: 你组织的 OpenID Connect 身份提供方。用户的令牌将作为 Bearer 凭据发送到网关或 Bedrock 代理。
+- IsTeS2wGCg [likely_untranslated]: 自 {date} 起，组织中未获得工件权限的成员可以评论其组织中分享给他们的工件并更改其中的数据，权限级别为其被授予的分享级别，最高到 Contributor。在此之前，他们可以打开这些工件，但不能评论或更改其中的数据。他们仍然无法创建、编辑、发布或分享工件。你可以在工件设置中为所有组织成员关闭工件功能。
+- IwylkUvRFB [likely_untranslated]: 无法从桌面密钥环读取 {browser} 的密钥，因此未导入任何内容。请解锁密钥环（或 KDE Wallet）后重试；在没有 secret-tool 命令的 GNOME 桌面上，请先安装 libsecret-tools。
+- JG9r5fssCE [likely_untranslated]: Google Slides（{id}）
+- JRvEhxXU8W [likely_untranslated]: 在 GitLab 中完成 webhook 设置
+- Jh/GaMIKff [likely_untranslated]: 此电脑上的其他账户可以读取你的密钥文件，因此 ssh 会忽略它。请对它运行 chmod 600，然后重试。
+- JkxvEClgxn [likely_untranslated]: Advisor 模型
+- Jma7m4IDar [likely_untranslated]: Claude 想在 Outlook 日历中添加日程
+- JuUpMYgg/v [likely_untranslated]: 总结分享给我的或最近有变动的 SharePoint 文档，并告诉我哪些真正值得打开 —— 每份附上一行理由。省得我一个个点。
+- K+zTVpk/Yd [likely_untranslated]: 当我能看到你真正要处理的事情时，我的表现最好，而你的收件箱是最快的入口。你的团队尚未启用 Gmail 或 Outlook。你可以请管理员启用其中一个：
+- K0F63ASqXa [likely_untranslated]: 此组织的 Compliance API 设置由其父组织管理。
+- K7RIJiOvvZ [likely_untranslated]: 在 SSH 配置中将「Match host」改为「Match originalhost」
+- KGgQzxeSxw [likely_untranslated]: 从 GitLab 同步
+- KMIX5JyE73 [likely_untranslated]: 前往 Claude Science
+- KTyP6y+zT8 [likely_untranslated]: 把网页或文件变成电子表格 — 如果我没有马上给你 URL 或文件，就用一个公开的 Wikipedia 表格做演示，让我看清整个流程：先展示字段，问我要哪些，预览五行，然后提取其余部分。
+- KUBBdRFBA9 [likely_untranslated]: 截取我最新的 Figma 设计图并给出诚实的评价：层级、间距、对比度和一致性 — 最后告诉我就改进效果而言最该做的那一处改动。
+- KXYm6EWDPF [likely_untranslated]: {count} 个 Nonprofit Standard
+- LBzw65bnw6 [likely_untranslated]: 找出我该回复的 Outlook 邮件 — 别人问我但我一直没答的问题 — 并按看起来的紧急程度排序。给每封写一段简短的回复建议供我复制。
+- LdfwhZ26OK [likely_untranslated]: 连接已中断，重新连接时 {host} 拒绝了 Claude 所需的 SFTP 子系统。请在其 sshd_config 中启用 Subsystem sftp（或请其管理员处理），然后重新连接。
+- MFCl78XG5n [likely_untranslated]: GitLab 没有响应——应答的是代理或登录页面。
+- MHKA6tzIO9 [likely_untranslated]: 下次可以在 Claude Science 里试试这个
+- MMlVngU+r+ [likely_untranslated]: 尚未连接任何 GitLab 实例。
+- McpBuiltinGithubToolsetsPh [likely_untranslated]: context,repos,issues,pull_requests
+- McpBuiltinM365CaeHint [likely_untranslated]: 请求支持 CAE 的 Microsoft Graph 令牌：有效期长（最长约 28 小时），但可在几分钟内撤销。设为「disabled」可继续使用标准的 1 小时令牌。
+- McpBuiltinM365CaePh [likely_untranslated]: enabled
+- McpBuiltinM365LabelEffectHint [likely_untranslated]: 连接器对带此标签的文件采取的操作。设为 block 时，它会拒绝读取或修改这些文件。填写其他任何词也会一并阻止。
+- McpBuiltinM365LabelEffectPh [likely_untranslated]: block
+- McpBuiltinM365SensitivityLabelsHint [likely_untranslated]: 阻止连接器访问 SharePoint 和 OneDrive 中带有上述任一 Microsoft Purview 敏感度标签的文件。
+- McpTransportHint2 [likely_untranslated]: 应用的连接方式：Streamable HTTP、旧版 SSE，或本地命令（stdio）。policy-only 不连接任何内容，它只设置插件服务器的工具策略。
+- MdsA96Qn67 [likely_untranslated]: 你的 SSH 配置为 {host} 将 UserKnownHostsFile 设为 /dev/null 或 none，因此你确认的密钥无法保存。请将其设为 ~/.ssh/known_hosts；若要在每次连接时接受任何密钥，可使用 /dev/null 并配合 StrictHostKeyChecking accept-new。然后重试。
+- MicrosoftAuthBrokerHint [likely_untranslated]: 「disabled」会强制使用基于浏览器的 Microsoft 365 登录；「required」会在操作系统 broker 不可用时导致登录失败，从而让刷新令牌始终由 broker 保管。
+- MljSEK1CZ0 [likely_untranslated]: 此技能保存的 SKILL.md 中，frontmatter 的排布方式导致无法设置新名称（例如全部写在一行上）。请将 SKILL.md 保存为每行一个字段且 name 保持不变，然后重试。
+- MqahebW66O [likely_untranslated]: Figma 尚未为 Design、Slides 或设计系统工件批准此连接器
+- NBqgsew51v [likely_untranslated]: 此仓库没有名为 origin 的远程仓库。请添加一个，然后重试。
+- NRYPtmoBZ3 [likely_untranslated]: Claude 想在 Outlook 中起草一封回复
+- NTcNHeNsq+ [likely_untranslated]: 创建 GitLab 配置失败。请检查输入内容后重试。
+- NUpa/8D/6g [likely_untranslated]: 不限量的 Nonprofit Standard 席位
+- Nk/eRrNMAQ [likely_untranslated]: Claude 无法对 {host} 使用 PuTTY 密钥
+- Nqg7Y7Db/4 [likely_untranslated]: Keep it 关
+- Nrha8NNzgW [likely_untranslated]: 启用 webhook，让推送到仓库的操作触发自动同步。使用具有 api 作用域和 Maintainer 角色的组织令牌时，Claude 会在 GitLab 中自动创建该 webhook——否则你将获得一个 URL 和密钥，需手动粘贴到 GitLab 一次。
+- Nt4lk6P3DL [likely_untranslated]: 此浏览器版本不支持语音模式。请更新到最新版本的 Chrome、Edge、Firefox 或 Safari 以使用语音模式。
+- Nu17YPn5P5 [likely_untranslated]: group/project
+- O/cGYTe5BY [likely_untranslated]: 为我的下一个会议准备一份资料简报：日历中的邀请详情、与参会者的近期邮件往来，以及任何相关的 SharePoint 文档——一页篇幅，两分钟读完。
+- O1g8CkiqEz [likely_untranslated]: Claude 想从 Outlook 发送一封电子邮件
+- OCE+gL/Q7M [likely_untranslated]: 未找到已启动的模拟器，但有模拟器进程正在运行。如果它是由测试版 Xcode 的 Device Hub 启动的，或启动到了自定义设备集，Claude Code 暂时看不到它。请用 `xcrun simctl boot '<device>'` 启动一个 Claude Code 可以使用的模拟器。
+- OUSKTW0lXW [likely_untranslated]: Claude Academy
+- OgU/PIXLu8 [likely_untranslated]: 不在 origin 上的内容（例如未提交的更改）会留在本机。
+- OrkJso3iQu [likely_untranslated]: GitLab 配置已删除。
+- OtlpCollectorAuthHint [likely_untranslated]: inference-credential 会以 Authorization: Bearer 形式将用户的推理 bearer 令牌发送给收集器。
+- OtlpHeadersValuePh [likely_untranslated]: tenant-a
+- OyiYtHWQUa [likely_untranslated]: 输入类似这样的内容：支付平台的后端，主要用 Go 和 Postgres…
+- OzvxyDVF5g [likely_untranslated]: 该 URL 不在已配置的 GitLab 实例上。请使用 {hosts} 上的仓库。
+- P+I+ahMQaW [likely_untranslated]: 在 GitHub 的「Single sign-on to your organizations」步骤中，继续之前请点击每个组织旁边的 Authorize。跳过这一步会隐藏该组织的仓库。
+- P5qPeYldS3 [likely_untranslated]: 检查服务器的 headersHelper，然后重新连接。
+- PTfvGnOF9D [likely_untranslated]: 未发送，被你的 PubkeyAcceptedAlgorithms 排除：{keys}
+- PUXjWGTIf9 [likely_untranslated]: UserKnownHostsFile 为 /dev/null 或 none，因此你确认的密钥无法保存。请将其设为 ~/.ssh/known_hosts。或者，如果要在每次连接时接受任何密钥，可设为 /dev/null 并配合 StrictHostKeyChecking accept-new。
+- PVqPvjnfnM [likely_untranslated]: 无法更新 GitLab 配置。请检查你的输入并重试。
+- PfQRXJ94k9 [likely_untranslated]: 请检查我最近的一个 Figma 设计的无障碍性：对比度、触控目标大小、文字大小和仅靠颜色传达的信息。给我一份按优先级排序的修复清单，并指出我应该优先修复的两个问题。
+- PoWykUrr1S [likely_untranslated]: Haiku 适合简单、可重复的任务和基础对话——对复杂工作或 Cowork、Claude Code、Claude Design、Claude Science 这类智能体工具效果不佳。
+- QQSAz9D7Wa [likely_untranslated]: 成员将能够通过 Claude Code 或 Cowork Remote Control，从未经验证的设备远程连接他们电脑上的 Claude。你可以随时重新开启此项。
+- Qy63O56FTs [likely_untranslated]: Claude 想给 Outlook 中的所有人起草一封回复
+- R0OKOPz6C5 [likely_untranslated]: 按 Delete 或 Backspace 关闭文件
+- R7Mgu9CdfN [likely_untranslated]: 一门面向 pK-12 教育工作者、关于安全、有效、有意识地使用 AI 的免费课程，与 Teach for America 共同打造。
+- RIt3NiK5Mx [likely_untranslated]: Claude Science
+- RK0L7BuwI0 [likely_untranslated]: 服务器「{server}」：托管配置仅存储 Google 桌面应用客户端密钥（GOCSPX-…）。其他客户端密钥请使用客户端密钥助手脚本。
+- RMhaW2yA1M [likely_untranslated]: 读取我最新 Figma 文件中的文字，并按优秀产品文案作者的方式重写：标签更清晰、标题更精炼、去掉术语。每一项改动都给我看修改前后对比。
+- ReEF2YWB4k [likely_untranslated]: 在 Windows 上，Cookie 只能从 Firefox 导入。Chrome 和 Edge 会锁定其 Cookie，其他应用无法读取。对于你在这些浏览器中使用的网站，请在内置浏览器中登录一次，之后将保持登录状态。
+- RjxPJYpW28 [likely_untranslated]: 如果你的网络通过 Zscaler 或 Netskope 等云安全代理传输流量，请确保 <host>bridge.claudeusercontent.com</host> 与 <host>claude.ai</host> 和 <host>api.anthropic.com</host> 走同一出口，或在此处添加该出口范围。否则，Chrome 中的 Claude、Office 加载项、Cowork 和远程工具将被你自己的允许列表拦截。
+- RvQ6GO7iN1 [likely_untranslated]: 每次推送时同步插件。使用具有 api 范围和 Maintainer 角色的组织令牌，Claude 会自动设置 webhook——否则你需要向 GitLab 粘贴一次 webhook 密钥。
+- S0fKykDXtP [likely_untranslated]: Claude 通过 HostName 连接 {host}，因此 ssh 会跳过那些设置该主机密钥或路由的 Match host 块。
+- S6F5ukQc+0 [likely_untranslated]: 需要 Teleport 登录
+- SBjuzIVQAJ [likely_untranslated]: 默认模型（列表中第一个模型）起始的推理强度，替代 Anthropic 推荐的级别：low、medium、high、xhigh 或 max。
+- SNpeQHkSnY [likely_untranslated]: 打开我最近的 Figma 文件，带我过一遍：里面有什么、是怎么组织的，以及哪一个结构性改进能让它更好用。欢迎说真话。
+- SR10m/niqw [likely_untranslated]: 名称不能包含隐藏字符。有些 emoji 会带有这类字符。
+- SVgkGimNH2 [likely_untranslated]: 保存后，在新的 webhook 上选择「测试」→「推送事件」，并确认 GitLab 返回 HTTP 200。如果返回 403，说明 GitLab 仍在使用它自己的令牌：编辑该 webhook，选择「重新生成令牌」，用上面的签名令牌替换新生成的值，然后保存。
+- SY0M30k99c [likely_untranslated]: 如果你的申请获得批准，此账户将永久变为 Claude for Teachers 账户——之后无法撤销。
+- Sa4zXtUaDu [likely_untranslated]: SharePoint 的新功能
+- SshTransportHint [likely_untranslated]: 由哪个 SSH 引擎承载 Code 会话：设备上的 OpenSSH ssh 程序，还是 App 内置的 SSH 库。未设置或自动：使用该构建的默认值。
+- SshTransportSystemOpenSsh [likely_untranslated]: 系统 OpenSSH 客户端
+- Sy/MCU6wmn [likely_untranslated]: 此工作区尚未连接到 Claude，因此无法列出它的频道。工作区管理员可以在 Slack 中发送“@Claude connect”来连接。在此之前，请粘贴频道 ID。
+- TFXBeVoYGI [likely_untranslated]: 更新 OpenSSH 以连接到 {host}
+- ToT1+RvUXj [likely_untranslated]: 在我的 Outlook 收件箱中搜索今天的邮件，标出三封确实需要我处理的邮件，并各附一行理由。然后告诉我哪些可以等到明天，哪些完全可以忽略。
+- Tu0dds1gOq [likely_untranslated]: Claude 改用了 Mac 内置的 ssh，但 {file} 的第 {line} 行有一个此 ssh 无法识别的选项：{option}。请移除它，或将其列入 IgnoreUnknown，然后重试。
+- TzQoCFsTic [likely_untranslated]: 辅助可执行文件的路径。仅当 Auth 为 credentialHelper 时设置。若会话主机无法运行它，所有工具调用都会被阻止。
+- U/gV2GdcLB [likely_untranslated]: {host} 上的 SFTP 已关闭。
+- UAw5e5gj+d [likely_untranslated]: GitHub CLI 让你可以直接在桌面应用中创建 PR、监控 CI 并合并。你可以在终端中按 Enter，用 winget 安装它并按提示操作。
+- UBfzB/wJyp [likely_untranslated]: GitLab 连接测试
+- UH5wPqh5XB [likely_untranslated]: 连接中断，而这台电脑上现有的 ssh 版本低于 Claude 所需的 OpenSSH 7.6。请更新后再重新连接。
+- URsh6jL2+H [likely_untranslated]: Motion 在 Team 和 Enterprise 套餐中处于测试阶段。
+- Ue8Wl5L9uw [likely_untranslated]: {host} 已关闭 SFTP，因此 Claude 无法复制其文件。请在主机上启用 Subsystem sftp，然后重试。
+- UowgjXc9Vh [likely_untranslated]: Clawd 的代码清理游戏
+- UsySB5WdyO [likely_untranslated]: 总结我的团队最近在 Jira 上交付了什么：哪些已关闭、哪些延期了、以及任何看起来卡住的事项——写成我可以直接粘贴到站会或利益相关方更新中的形式。
+- Uuprl7Itk/ [likely_untranslated]: 推送分支被阻止。pre-push 钩子或服务端检查拒绝了它。你可以不推送继续。云端会话将从远端最后一次看到的 {branch} 开始。
+- Uva9Llbw+6 [likely_untranslated]: 已应用 Claude Team for Scientists 价格
+- VRXTNO0Av9 [likely_untranslated]: 使用方向键移动到该方向上最近的点，Page Up 和 Page Down 逐步浏览每个点，Enter 选择一个点
+- VrqdmC2Iul [likely_untranslated]: Google Docs
+- VzFVKWyEdo [likely_untranslated]: “{host}”现在提供的 host key 与 Claude 首次连接时记录的不同。如果这台机器重装过系统或更换过密钥，请在终端中用 ssh 连接它一次并接受新密钥；此后 Claude 会使用你 known_hosts 中的条目。如果该机器没有任何变化，请不要连接：可能有东西在拦截该连接。
+- W+0qgF5p1Q [likely_untranslated]: 此规则替换了一条以 audience= 开头的规则，而该前缀是保留的。请恢复那段文本或移除此规则，这些规则才能保存。
+- W1sqNOEYj+ [likely_untranslated]: 无法读取你组织在此设备上的登录限制，或该限制未列出任何组织，因此在修正之前任何账户都无法在此登录。请让你的 IT 管理员检查 forceLoginOrgUUID 设置。
+- W3hDostM12 [likely_untranslated]: Xcode 已安装，但你 Mac 的命令行工具并未指向它。请在 Terminal 中粘贴以下内容，然后按 Enter，并在系统询问时输入你的 Mac 密码：
+- WMDO+NSTY3 [likely_untranslated]: GitLab
+- WNAXbhCndT [likely_untranslated]: Claude 想要在 Outlook 中起草一封电子邮件
+- Wc/+j21c8f [likely_untranslated]: Claude Motion
+- WhoIlGBUT6 [likely_untranslated]: 在 Browser 中重新加载页面
+- WhzW/UhnMC [likely_untranslated]: 此角色中的成员可以在对话、Cowork、Claude Code、Claude Tag、Office Agents、Claude Design 和 Claude Science 中使用这些模型。
+- WrH32fuIpX [likely_untranslated]: Claude Slides
+- X+RRR6GruM [likely_untranslated]: Claude Docs、Slides 和 Design 已结束测试版。自 10 月 15 日起，它们会为你的组织默认开启，成员可以在任何对话中让 Claude 生成文档、演示文稿或设计。若要提前开启或让其中某项保持关闭，请前往「工件」设置中的「工件模板」。
+- XReuwKfwAW [likely_untranslated]: 在你的 SSH 配置中，把跳板主机的用户名从 ProxyJump 移到其 Host 块中的 User 行，然后重试。
+- XU2Ik+gS+b [likely_untranslated]: 此计划仅对 Claude for Startups 成员开放。如果你已经申请，请使用申请时所用的邮箱登录。如果尚未申请，<a>点此申请</a>。
+- XnNj1vBX70 [likely_untranslated]: Free 的全部功能，以及：
+- XqY/sF2k4E [likely_untranslated]: Claude 使用 skill-creator 技能与你一起创建和编辑技能。该技能目前已在你的账户中关闭。
+- XzYekAEE0O [likely_untranslated]: Claude 使用 skill-creator 技能与你一起创建和编辑技能。该技能目前已在你的账户中禁用。
+- Y7NxsWhP/m [likely_untranslated]: 请联系你的 IT 管理员安装 Microsoft OpenSSH 9.4 或更高版本，然后退出并重新打开 Claude
+- YF47056zGL [likely_untranslated]: 改用此主机的 ProxyCommand 可能可行，但需先退出并重新打开 Claude。
+- YMeFj/u16U [likely_untranslated]: 查看我的 Outlook 日历并带我过一遍这一天：每个会议、中间的空隙，以及每个会议前我该准备什么。告诉我哪一个小时最适合专注工作。
+- YU8ZHo+CI7 [likely_untranslated]: 你的组织尚未配置 GitLab 实例。请在「组织设置」→「Git 提供商」中添加一个，然后回到这里。
+- YVs9kr97GU [likely_untranslated]: 请在你的 SSH 配置中把此主机的 HostName 改为纯主机名或 IP 地址。
+- YdsHguLtpn [likely_untranslated]: Anthropic 默认 effort
+- YnJZ8FFSkq [likely_untranslated]: 此仓库在 GitHub 上没有 origin。仅对话会移动，文件仍保留在这台计算机上。
+- Yz+qTOB+P9 [likely_untranslated]: Claude 想要从 Outlook 转发一封邮件
+- ZQDuVNCDkJ [likely_untranslated]: 总结本周我的 Jira 项目：已关闭、新开启、仍然卡住的事项，以及最值得提出的一项风险。然后询问是否每周五下午把这份摘要发给我。
+- Zi0S5qBnfX [likely_untranslated]: 由 WorkOS 代理
+- Zi3uU5qvSK [likely_untranslated]: GitLab 配置已创建。
+- ZrLx6EcZ4K [likely_untranslated]: 调用会发往我们获授权集成的第三方 API（例如 Zapier 风格）
+- Zz/T4MLiO7 [likely_untranslated]: PowerShell 模式。按 Escape 返回对话。
+- aCHjft5XWU [likely_untranslated]: 找出我的团队本周编辑过的 Confluence 页面，并总结有哪些改动、哪些值得我关注——每个页面给出一行理由，最重要的排在最前面。
+- aOjCZY2aCX [likely_untranslated]: 此规则以保留字 audience= 开头。请移除它，这些规则才能保存。
+- abHr7XU8Eo [likely_untranslated]: 请让你的 IT 管理员安装 Microsoft OpenSSH 9.4 或更高版本，并将 sshTransport 设为 system-openssh，然后退出并重新打开 Claude
+- ak2SiBCTnF [likely_untranslated]: 默认 设计 system
+- axCP9nY92X [likely_untranslated]: 开启 skill-creator？
+- bTgkm8RYGK [likely_untranslated]: 切换到 Latest
+- bU+v5wG8je [likely_untranslated]: 不限数量的 Global Access 席位
+- bUV9fFCyLg [likely_untranslated]: 这台电脑的 ssh 版本低于 Claude 所需的 OpenSSH 7.6。请更新后重试。
+- bdI2x7YEYo [likely_untranslated]: 根据我的 HubSpot 数据，告诉我今天最重要的三项销售行动——以及为什么是这三项。不要报告，给我一个午饭前就能照着做的简短答案。
+- bnA1oXej63 [likely_untranslated]: Confluence 中有什么变化
+- boVNU4LNt1 [likely_untranslated]: arn:aws:iam::123456789012:role/claude-m365-addin
+- c5O6kWaIr5 [likely_untranslated]: 注意：它使用的是旧版 commands/ 格式。两种格式都可用——建议迁移到 skills/*/SKILL.md。
+- cQawkOGnVv [likely_untranslated]: 你的 Claude 账号邮箱地址必须是学校发放的才符合条件。Gmail 或 Yahoo 等个人邮箱不被接受。如需申请，请使用学校邮箱登录 Claude 账号。
+- cXD8mQXscd [likely_untranslated]: Microsoft 未能让 Claude 完成连接 {serverName}。你所在组织的登录策略要求进行多重身份验证检查，而 Claude 的请求未满足该要求。请向 IT 管理员寻求帮助，并把这条完整消息发给他们。他们可以在 Entra 登录日志的 Request ID 列中搜索它的 Entra Trace ID（如果有的话，也请查看 User sign-ins (non-interactive)），并看看 {articleUrl} 对条件访问阻止此连接的说明。
+- cZ5/n9thQ4 [likely_untranslated]: 此 GitLab 仓库无法添加为个人市场。请让管理员在管理设置中将其添加为组织市场。
+- cbv9b/bHlZ [likely_untranslated]: Portland 门店有哪些尺码有货？
+- cfTV6zquwy [likely_untranslated]: 根据你的身份提供方发布的签名密钥（JWKS）检查 ID-JAG 的签名。
+- cfz+8TfD1V [likely_untranslated]: 无法删除 GitLab 配置。你可以重试。
+- cn4dZNtp9U [likely_untranslated]: Beneficial Deployments Premium：{before, number} → {after, number}
+- crUxkFdJiZ [likely_untranslated]: 使用 {skillName} 为我们的投资委员会构建数据包。标准化附件 CIM 中的财务数据，包括 ARR 增长、净收入留存率和 Rule of 40 指标。[attach ProjectAlpha_CIM.pdf]
+- d1Kg3y4IXz [likely_untranslated]: {count} 个非营利组织 Premium 席位
+- d5mxFjnpBO [likely_untranslated]: 不支持该链接类型。请使用 http、https 或 mailto 地址。
+- d7a4MPURsV [likely_untranslated]: PuTTY 密钥：Claude 会将其转换为 OpenSSH 格式，并在其数据文件夹中保留一份私钥副本。
+- dSP7DAVrOp [likely_untranslated]: 无法复刻此会话，因为远程机器的 SSH shell 是 cmd.exe 或 PowerShell。
+- dXGz+SEIjH [likely_untranslated]: 正在使用 {skillName} 创建 [MongoDB] 的公司研究。从任务 1 开始，涵盖商业模式、竞争定位和关键投资论点。
+- dfsuG6+0nr [likely_untranslated]: 未做更改，因为它位于其他卷上；请将它复制到 ~/.ssh 或就地 chmod
+- dkv7ZXazC0 [likely_untranslated]: 操作系统身份代理（WAM / Company Portal）
+- dlHi7q8JZm [likely_untranslated]: 允许 Claude Tag 代入此角色的语句没有用 StringEquals 固定令牌的 aud 声明。Claude Tag 令牌始终以受众 sts.amazonaws.com 签发。
+- e/3Fi5Jr5Z [likely_untranslated]: Teleport 需要你重新登录才能访问 {host}。请在终端中运行 tsh login，然后重试。
+- e2R3MBMpSe [likely_untranslated]: 正在等待 {host}：Teleport 需要你运行 tsh login。
+- eV/sHF3x1t [likely_untranslated]: Host 默认
+- eWyNqZpOV2 [likely_untranslated]: 连接已断开。Claude 会通过 HostName 重新连接到 {host}，因此 ssh 会跳过 Match host 块。请在你的 SSH 配置中将「Match host」改为「Match originalhost」，然后重新连接。
+- edOZBT0eHo [likely_untranslated]: 更新 OpenSSH，以重新连接到 {host}
+- ezjkREa6xp [likely_untranslated]: Atkinson Hyperlegible Next
+- f/hOzZINyq [likely_untranslated]: 虚拟化服务无法打开工作区的虚拟磁盘。这通常意味着该文件经过 EFS 加密，或你的终端安全软件正在阻止 .vhdx 文件。重新安装无法解决此问题。下面的详细信息说明了如何检查以及需要更改什么。
+- f16hbifrqf [likely_untranslated]: 读取我最近一次的 Figma 设计，梳理出它隐含的用户流程，并生成该流程的 FigJam 图，方便我们一起找出死胡同和缺失的状态。
+- f56a3IWmuX [likely_untranslated]: 在终端中按 Enter，用 winget 安装 Git for Windows，然后按其提示操作。
+- fB/41LjDI/ [likely_untranslated]: 请让你的管理员修正 sshTransport 设置
+- fECACO6nl7 [likely_untranslated]: PowerShell 模式已开启，因此没有添加任何内容。请在空的消息框中按 Backspace 返回对话，然后重试。
+- fGCns4pNum [likely_untranslated]: 在 Free 方案中仅你可以打开
+- fIylHL5mwz [likely_untranslated]: 对于这类分析，Claude Science 为你提供一个专为数据集和严谨数值计算构建的工作区——需要单独下载。
+- fNmUH2JbUw [likely_untranslated]: Claude 通过 HostName 连接 {host}，因此 ssh 会跳过 Match host 块。在你的 SSH 配置中，把「Match host」改为「Match originalhost」，然后重试。
+- fSYy6Kporx [likely_untranslated]: 此访谈需要 Memory 功能，而你的账号无法使用该功能。
+- fUAWGQ+4Xw [likely_untranslated]: Git 无法同时在两个文件夹中检出同一分支。在仓库中运行 git worktree list 查看哪个文件夹使用了此分支，把该文件夹切换到其他分支，然后重试。
+- fXOSP8WuGc [likely_untranslated]: 此令牌可以同步插件。自动同步所需的自动 Webhook 设置还需要 api 权限范围和 Maintainer 角色——缺少它们时，启用自动同步会要求手动粘贴一次 Webhook。
+- fcLOoGXnjB [likely_untranslated]: 由 ~/.ssh/config 中的 IdentityFile 行设置
+- fkf53p7QzQ [likely_untranslated]: {host} 的密钥文件是无法使用的 PuTTY .ppk。请将其导出为 OpenSSH 密钥，然后重试。
+- fvoI9k9Bvl [likely_untranslated]: 此账户已达到教师验证申请上限。如需申请方面的帮助，请联系 Goodstack 支持。
+- fzS7X8WeEI [likely_untranslated]: 语句 {statement}：将 Effect 设置为 allow 或 deny。
+- g3kQxNOL13 [likely_untranslated]: PR review digest
+- gI2wJ9+mqw [likely_untranslated]: Claude Science 现已迁至 claude.com。
+- gPs0AEstLU [likely_untranslated]: 每个客户的 URL 只有一部分不同，例如子域名或组织 ID（如 Salesforce My Domain）。
+- gPwIOA8dUN [likely_untranslated]: 查找并引用 Docs、Sheets 和 Slides
+- gVE6mN9qZm [likely_untranslated]: 你的组织尚未配置 GitLab 实例。请让组织管理员在「组织设置」→「Git 提供商」中添加。
+- gVU7c8N55+ [likely_untranslated]: 此浏览器不支持 Storage Access API
+- gbttLlQ847 [likely_untranslated]: {host} 需要跳板机（ProxyJump），而 Claude 内置的 SSH 库无法使用它。请在此主机的设置中测试连接以查看需要修复的地方，然后重试。
+- gc9xc+1DXg [likely_untranslated]: 此仓库没有名为 origin 的远端，因此无处上传你的工作。请添加一个远端，然后重试。
+- h0AK7K9SfO [likely_untranslated]: 请让 {host} 的管理员提高 sshd_config 中的 MaxSessions（默认值为 10），然后重试。
+- h2MNT0NcX0 [likely_untranslated]: 添加到 Dock 需要 macOS Sonoma 或更高版本上的 Safari 17 或更高版本。
+- h2g830ukpb [likely_untranslated]: 用 Cost 与账单对比。
+- h9ToPBnGNn [likely_untranslated]: 选择您的组织可以使用的模型，以及它们可运行的最高 effort 级别。设置最高 effort 级别是可选的。<pricingLink>查看模型性能与定价</pricingLink>
+- hA+1DViXB0 [likely_untranslated]: 使用 {skillName} 根据我们事务所的模板创建可复用技能。提取版式、占位符和格式规范。[attach firm_brand_template.pptx]
+- hEDYeEbeid [likely_untranslated]: 安装 Microsoft OpenSSH 9.4 或更高版本，然后退出并重新打开 Claude
+- hIKVkyDob/ [likely_untranslated]: 这是一个细粒度令牌。要在您将同步的项目上同步，它需要三项权限：Project: Read、Branch: Read 和 Repository: Read。
+- heDNsN0V4o [likely_untranslated]: 高等教育 Standard
+- him1TIiYkP [likely_untranslated]: 验证是永久的。一旦通过审批，此账号将成为免费的 Claude for Teachers 账号，其上的任何付费方案都会终止：您现有的对话会随之保留，并受学生数据隐私保护，且无法再切换回个人的 Free、Pro 或 Max 方案。如果以后想用个人方案，您需要单独注册一个 Claude 账号。
+- hmBrgFftOP [likely_untranslated]: 请在您的 SSH 配置中将此主机的 HostName 改为普通主机名或 IP 地址，然后在启动此会话的那个会话中让 Claude 重新启动它。
+- hseq+zpGAi [likely_untranslated]: 使用工作树需要 Git for Windows。您可以在终端中按 Enter 用 winget 安装并按其提示操作，或关闭工作树选项以在没有 Git 的情况下继续。
+- hwgIiwPGIU [likely_untranslated]: 你将使用 Touch ID 确认，并选择要导入的网站。所有数据都不会离开这台电脑。
+- hzB4kwJsAV [likely_untranslated]: 包含 Claude Science
+- i3V/KUGyYT [likely_untranslated]: 从 Dock 中打开它。首次使用时可能需要重新登录。
+- i4d29baU4c [likely_untranslated]: 添加 GitLab 配置
+- iLBqvxWEw1 [likely_untranslated]: 其 SKILL.md 头部无法读取或未被本应用接受，或者其文件夹包含插件文件（任何位置的 .claude-plugin，或顶层的 hooks、monitors、workflows 或 hooks.json）。请在 Claude（第三方）中修复头部后重新导入；如果你信任它，也可以将其添加到「自定义 › 技能」下
+- iMxKfyF2Vr [likely_untranslated]: 我的 GitLab 实例
+- iVjqgk3Lk6 [likely_untranslated]: TrueType .ttf 字体
+- iceJ1dHPXq [likely_untranslated]: 将 {branch} 推送到 {remote}，然后在 {environment} 中启动一个没有仓库的云会话（origin 不在 github.com 上）。
+- id7EX1+7NT [likely_untranslated]: 如何创建 External Client App
+- j+vhhmllsw [likely_untranslated]: {host} 上的 SFTP 无法启动
+- j/cnWEhAUx [likely_untranslated]: 导入 cookies…
+- j5gqyWFH1y [likely_untranslated]: 用户连接时提供自己的 URL 或客户端信息（例如 Snowflake）
+- jAA6DpK01B [likely_untranslated]: 更新源（设置 updateViaUpdatesHost 时为 releases.claude.com）
+- jdFo0ysUjC [likely_untranslated]: 这台电脑上 origin 没有的提交会被排除。
+- jhai7lr4GT [likely_untranslated]: 打开 Teachers
+- k8n39pcbuC [likely_untranslated]: glpat-...
+- kHAWqPzGu1 [likely_untranslated]: {host} 的 SSH 服务器已关闭 SFTP
+- kLH2DJIS8k [likely_untranslated]: Flaky test tracker
+- kVRzXhy4zq [likely_untranslated]: 这些行并未显示发送的全部内容。下方详情中的「Exact text sent」行包含其余内容。
+- khbEnXRs6W [likely_untranslated]: 将 {file} 第 {line} 行的「host」改为「originalhost」
+- kl+qGPhRpO [likely_untranslated]: 总结我在 HubSpot 的一周：推进的交易、新增联系人、新增和流失的商机，以及本季度的进展。然后询问是否要把这个设为我的周五总结。
+- kz2hqFK9kI [likely_untranslated]: Template Creator
+- lBKJbIREuB [likely_untranslated]: 看看我的 Airtable 基表并带我逛一圈：每个基表追踪什么、大致规模有多大，以及哪些看起来在被积极使用、哪些已被弃用。告诉我我们应该先处理哪个基表。
+- lG+8z1P8QU [likely_untranslated]: 跨 Jira 和 Confluence 跟踪工作
+- lGalJ6SY3h [likely_untranslated]: 在 Jira 中搜索所有分配给我的内容，并给我一个坦诚的评估：哪些紧急、哪些陈旧、哪些可能已完成但未关闭、哪些应该退回。一个列表，按优先级排序。
+- lM/y9xSCPY [likely_untranslated]: 这台电脑的 ssh 版本低于 OpenSSH 7.6，而 Claude 需要用它连接 {host}。请升级后重试。
+- lUrfDOw1ra [likely_untranslated]: GitLab 报告：{detail}
+- lVTIiQG9JK [likely_untranslated]: Company Profile
+- lrZ5v9UGmn [likely_untranslated]: 从我最近的邮件和 Teams 消息中找出我最活跃的项目，然后把与之相关的所有内容——邮件、聊天、SharePoint 文档——汇总成一份条理清晰的总结。让我看看跨整个工作区搜索是什么效果。
+- lvo2DUxX0z [likely_untranslated]: 请重新登录 Teleport 以连接到 {host}
+- m+uPHEnsm9 [likely_untranslated]: 无法访问此市场。请让管理员检查为你的组织配置的 GitLab 访问令牌。
+- m7V4EMT1u1 [likely_untranslated]: 连接中断，且 {host} 现在允许的每次连接 SSH 会话数太少。请让管理员提高 sshd_config 中的 MaxSessions（默认值为 10），然后重新连接。
+- mGg8AA8orc [likely_untranslated]: SFTP 无法在 {host} 上启动。请在终端中用 sftp 连接它以查看原因，然后重试。
+- mMGG6IHB6R [likely_untranslated]: {count} 个 Nonprofit Standard 席位
+- mfiIYk89tj [likely_untranslated]: 你的组织将 Claude 配置为使用非 Microsoft OpenSSH 的 ssh 程序，而 Claude 需要 Microsoft OpenSSH 9.4 或更新版本。请联系你的 IT 管理员，然后重试。
+- moOg2Nlekb [likely_untranslated]: Outlook
+- mqHWFLSpd8 [likely_untranslated]: 访问 Goodstack 的帮助中心
+- mvlu8pjOY9 [likely_untranslated]: Claude 想要从 Google Calendar 删除一个事件
+- my5ZuUvT1G [likely_untranslated]: <b>请再次确认前缀</b>。大多数服务要求在 <b>Authorization</b> 令牌之前使用「Bearer」、「Basic」或「Digest」。
+- nAhSm12rDm [likely_untranslated]: 请让 IT 管理员把 sshTransport 从 builtin 改为 system-openssh
+- nFxdr9hI+e [likely_untranslated]: 总结本周我的 Figma 文件里有哪些变化：新增文件、活跃项目，以及哪些似乎在收敛或停滞。然后提议每周五给我发送这份回顾。
+- nNacAOZe6K [likely_untranslated]: 使用 OneDrive、Outlook 等
+- ng6kkd2GLe [likely_untranslated]: 「enabled」：当用户在 Windows 上点击「连接」时，Microsoft 365 会使用已登录 Windows 的工作账号直接登录，不显示账号选择器。
+- o/f5ZVajy7 [likely_untranslated]: Claude for Teachers 对通过验证的美国 K-12 教育工作者免费。
+- oBGMtKOOxW [likely_untranslated]: 你的组织需要先建立有效的 Okta SSO 连接，WorkOS 才能生成此设置链接。请先连接你的身份提供商，然后重试。
+- oRUsBwZnHk [likely_untranslated]: 连接已断开，且 Claude 内置的 SSH 库无法通过跳板主机（ProxyJump）重新连接。
+- opHGThwtSl [likely_untranslated]: MIT、Apache 2.0、专有许可等
+- pMktMfSha3 [likely_untranslated]: 要接受的 marketplace.json 精确 SHA-256。没有它时，auto_install 和 required 按可用处理；提供的清单若摘要不同则会被拒绝。
+- q6dT9ma09g [likely_untranslated]: 把我最近的 Jira 活动整理成一页可直接用于 Confluence 的项目状态页 —— 写给利益相关方看，而不是工程师：进展、风险、下一步。先给我看草稿，我批准后再创建页面。
+- qH33iLPi21 [likely_untranslated]: GitLab 未及时响应。
+- qWaThelGIn [likely_untranslated]: 无法上传到此仓库的 origin：它有多个推送 URL、URL 中含凭据，或是指向其他仓库的推送 URL。请运行 git remote -v 查看它指向哪里，然后重新检查。
+- qgxNbFDkRU [likely_untranslated]: SSH 密钥是 PuTTY 的 .ppk，无法使用
+- qq9UbZ1nJY [likely_untranslated]: {host} 已关闭 SFTP
+- r+CF5sMADW [likely_untranslated]: 按 Control+Shift+左箭头或右箭头移动标签页
+- r4GN7WlYxn [likely_untranslated]: Claude 内置的 SSH 库无法通过跳板机（ProxyJump）连接。
+- r8nGMsxIRQ [likely_untranslated]: 开启 Claude Science
+- rINaJfY+8/ [likely_untranslated]: 把我最新的 Figma 设计做成一段简短的讲解：截下关键页面，并为每一页写一句故事——用户看到什么、做了什么、感受如何——方便直接分享给团队。
+- rKFNg8QRCf [corrupt_content_translation]: 已邀请 {角色s}
+- rohb049w+J [likely_untranslated]: 获取 Claude Science
+- rwRWPbi+cV [likely_untranslated]: 分支推送被阻止。pre-push 钩子或服务器端检查拒绝了它。你可以不推送继续操作。云会话将从 {branch} 的远端最新状态启动；此设备上的 {count, plural, one {# 个提交} other {# 个提交}}不会被包含在内。
+- sEX1rg+foX [likely_untranslated]: 导出到 Google Docs
+- sOtn8g/qXJ [likely_untranslated]: 请在终端中按 Enter，使用 winget 安装 Git for Windows 并按照提示操作，然后重试。
+- sQ3hqPL7/Z [likely_untranslated]: 根据我最近的 Jira 活动撰写状态更新：我完成了什么、正在进行什么、什么被阻塞以及原因。请用我经理真正会读的平实语言，而不是工单腔。
+- sgt3sVyUZS [likely_untranslated]: Atom
+- sm3TVeteI8 [likely_untranslated]: Git 无法同时在两个文件夹中检出同一个分支。请在仓库中运行 git worktree list，查看哪个文件夹有此分支，将该文件夹切换到其他分支，然后发送消息重试。
+- st9TW8Im8F [likely_untranslated]: Claude Academy
+- t0gSLNB/Hp [likely_untranslated]: 用我的 HubSpot 数据做一个销售管道看板：按阶段划分的商机、总金额和加权金额、过去一周的变化——做得足够干净，可以直接截图放进我周一的管道复盘。
+- tR7ChyBwP+ [likely_untranslated]: 此组织可提前使用 Mythos Preview 模型。每次授权都要求某些管控措施持续有效。
+- tUE9Zu27Q1 [likely_untranslated]: 用访问令牌连接 gitlab.com 或自管理实例。目前 GitLab 用于插件市场同步；云会话还无法使用 GitLab 仓库。
+- tZV1P0Se3W [likely_untranslated]: 把我最近一次的 Figma 设计变成可用的 HTML 和 CSS——一个忠实、响应式、能立即在浏览器中打开的版本。告诉我你哪些地方只能猜，我好纠正。
+- tyiX/dfX4R [likely_untranslated]: 某个条件在 Allow 语句上使用了 ForAllValues 运算符。ForAllValues 也会匹配对该键完全没有提供任何值的请求。
+- u1yD+e5kJh [likely_untranslated]: 在你的 GitLab 项目中，打开 设置 → Webhook，粘贴下面的 URL 和密钥令牌，启用 Push 事件，然后保存。
+- uARQCpW5rL [likely_untranslated]: 每周 设计 recap
+- uBXiCAHBJi [likely_untranslated]: 连接已断开，且 ssh 不会使用你的密钥文件重新登录 {host}，因为这台电脑上的其他账户也能读取它。请对它运行 chmod 600（如果它位于共享或外部卷上，请复制到 ~/.ssh），然后重新连接。
+- uE//JJP8s+ [likely_untranslated]: 密钥通过 api.anthropic.com 调用 Admin 和 Compliance API（x-api-key 请求头）；它们属于组织，在创建者离开后仍可继续使用。<a>了解更多</a>
+- uHwqApIpkB [likely_untranslated]: 与 {hostname} 的身份验证失败。请检查管理设置中配置的 GitLab 访问令牌。
+- uNovsV5CI4 [likely_untranslated]: yourcompany
+- uRyJDreYs5 [likely_untranslated]: 这台电脑的 ssh（{sshPath}）是 OpenSSH {version}；Claude 需要 7.6 或更高版本。请更新后再重试。
+- uXFFUp1QI7 [likely_untranslated]: Bash 模式已开启，因此未添加任何内容。请在空消息框中按 Backspace 返回对话，然后重试。
+- ugkvPUuU1T [likely_untranslated]: 自动同步需要为该市场的主机配置有效的 GitLab 连接。请在组织设置中添加一个。
+- uhoVwnjReY [likely_untranslated]: <link>Claude Code Remote Control</link> 是单独的设置，不受此开关影响。
+- umjzV5Ooej [likely_untranslated]: 你已达到 Free 套餐的 5 小时消息上限。Pro 有更多用量和更多 Claude 模型。
+- uz/tMvhhY9 [likely_untranslated]: 请在你的 SSH 配置中把此主机的 HostName 改为普通主机名或 IP 地址，然后重试。
+- v1xV8y1nKe [likely_untranslated]: Tab 用于插入缩进。要用 Tab 移动焦点，请先按 Shift+Option+M。
+- vGSeTHDG7x [likely_untranslated]: 匹配 glob
+- vRHCNG9xkY [likely_untranslated]: 信任通过 bootstrap 下发的设置
+- vU297pFmbr [likely_untranslated]: 请使用 POSIX 路径（/… 或 ~/…）；暂不支持 Windows 主机。
+- vUL/kzEge5 [likely_untranslated]: 例如 OpenDyslexic Mono
+- vVjD8kgAio [likely_untranslated]: 流式响应只发送保活 ping 时，额外等待模型输出的秒数。仅适用于网关提供商。默认 300。
+- vaRFeUHb7y [likely_untranslated]: 例如：在所有提交信息前加上 Jira 工单号。绝不直接推送到 main。
+- vj7kypWdvP [likely_untranslated]: 密钥通过 api.anthropic.com 调用 Admin、Compliance 和 Analytics API（x-api-key 请求头）；它们属于组织，在创建者离开后仍可继续使用。<a>了解更多</a>
+- w738ZUItg2 [likely_untranslated]: Global Access 席位
+- wYT+SVflMT [likely_untranslated]: 在终端中按 Enter，即可用 winget 安装 Git for Windows，然后按提示操作，再发送消息重试。
+- waVYcIkP+H [likely_untranslated]: 此 JSON 不是服务账号密钥。密钥文件会将 type 设为 service_account，并包含 client_email 和 private_key。请在 Google Cloud 的 IAM → 服务账号 → 密钥中创建一个。
+- whYmG15bUs [likely_untranslated]: Spec Writer
+- wp1J5lGkPK [likely_untranslated]: 你在 {host} 的密钥文件可被其他账号读取，因此 ssh 不会使用它。请对它运行 chmod 600，然后重试。
+- x0R5UwM7xS [likely_untranslated]: Tab 会插入缩进。若要使用 Tab 移动焦点，请先按 Control+M。
+- x3nhyfPTPv [likely_untranslated]: 使用 {skillName} 为 [Snowflake] 创建单页幻灯片概览。包括业务概览、关键指标、估值倍数、股价走势图和主要股东。
+- xAbtj45t3Y [likely_untranslated]: 在 Windows 上，Cookie 只能从 Firefox 导入。Chrome 和 Edge 会锁定它们的 Cookie，其他应用无法读取。对于你在那些浏览器里使用的网站，请在应用内浏览器中重新登录。
+- xB8T3nhKPl [likely_untranslated]: Microsoft 365 加载项使用用户的 Entra ID 令牌（STS AssumeRoleWithWebIdentity）所代入的角色。Claude Desktop 不会读取。
+- xG8PvEddpj [likely_untranslated]: name@{domain}
+- xMN2WXVnzr [likely_untranslated]: 个人、群组或项目访问令牌。旧版令牌至少需要 read_api 权限范围；细粒度令牌需要 Project: Read、Branch: Read 和 Repository: Read。如果具备 api 权限范围（旧版）或 Webhook: Create 和 Delete（细粒度），再加上 Maintainer 角色，Claude 还能自动设置推送 Webhook 以实现自动同步。加密存储，之后不再显示。
+- xSc1NB2maG [likely_untranslated]: PowerShell
+- xUm3tL647e [likely_untranslated]: C:\Program Files\Corp\cred-helper.exe
+- xY9cg25btv [likely_untranslated]: 连接已断开，重新登录时你的 SSH 代理拒绝为 {host} 使用其密钥：密钥已锁定，或者 1Password、Secretive 之类的应用请求了你的批准但未获批准。请解锁密钥，或在它请求时批准，然后重新连接。
+- xeNAamTIkg [likely_untranslated]: 你的 ssh 配置无法校验所出示的主机密钥「{host}」：它没有为此机器保留 known_hosts（UserKnownHostsFile /dev/null 或 none），仍要求校验该密钥，却没有记录它的任何密钥（最多只有一个它未出示证书的证书颁发机构）。如果这类机器本应接受其出示的任何密钥，请在 ssh 配置中为它们使用 UserKnownHostsFile /dev/null 和 StrictHostKeyChecking accept-new；如果希望改为记录它们的密钥，请将 UserKnownHostsFile 设为 ~/.ssh/known_hosts。然后重试。否则，尤其是如果这台机器通常都能连接，请不要连接：可能有东西在拦截该连接。
+- xfwX0mGvRT [likely_untranslated]: 此会话已缓存，effort 设为 {current}。将其改为 {next} 意味着 Claude 会在你的下一条消息时重新读取整个会话，这会消耗更多额度。
+- xgXVMUgG3a [likely_untranslated]: 连接已断开。在你退出并重新打开 Claude 后，改用此主机的 ProxyCommand 或许可行。
+- xrcUs3mPZL [likely_untranslated]: 插件会从 GitLab 仓库自动同步
+- xrgBlTzmvn [likely_untranslated]: Claude 直接在 Outlook 中工作
+- xuJxW9iCld [likely_untranslated]: 连接已断开，ssh 不会使用你的密钥文件重新登录到 {host}，原因在于该文件的所有者或可读取者。请在文件属性的「安全 › 高级」中，确保你是所有者，禁用继承，并移除除你自己以外的所有账号（SYSTEM 和 Administrators 可以保留），然后重新连接。
+- y0hTmNqK2C [likely_untranslated]: PS256，适用于拒绝 RS256 的提供方，例如 NetSuite。
+- y6oGYkTFrQ [likely_untranslated]: 通过 WorkOS 连接你组织的身份提供方，以使用托管授权。
+- y6zrr8IS0Y [likely_untranslated]: 来自 claude.ai 的 .zip 文件，通常命名为 data-export-*.zip
+- y9nWqME87t [likely_untranslated]: 未提供的智能体密钥（IdentitiesOnly）：{count}
+- yA4H9hjqoj [likely_untranslated]: 在终端中通过 sftp 连接到 {host}，查看 SFTP 为何无法启动（通常是那里的登录脚本或强制命令），然后重试。
+- yEPAW4TRyC [likely_untranslated]: Beneficial Deployments 高级席位
+- ykmM0wMeAH [likely_untranslated]: 验证在我们的登录服务提供方 WorkOS 的安全设置页面上进行。
+- z1kHW+4+uY [likely_untranslated]: 来自 claude.ai 的 .zip 文件（通常为 data-export-*.zip）或 Claude Desktop
+- z1xNhJucYj [likely_untranslated]: 连接已断开，且 SFTP 不再在 {host} 上启动。请在终端中用 sftp 连接它查看原因，然后重新连接。
+- zGpLnXNFT1 [likely_untranslated]: 一个 pull request 刚合并到 main 分支。请为它起草一条发布说明。
+
+1. 阅读 PR 的标题、描述和 diff。找出用户可见的变更 — 新功能、缺陷修复、破坏性变更或仅内部改动。
+2. 如果变更仅涉及内部（测试、CI、构建工具、注释、删除死代码、纯重构），停止并在评论中说明“仅内部变更 — 无需发布说明”。不要为此类变更起草条目。
+3. 否则，为最终用户（而非贡献者）起草一段说明。使用祈使语气。避免行话和内部代号。不要提及文件路径、函数名或 commit SHA。
+4. 将条目归类为以下之一：新增、改进、修复或破坏性变更。
+5. 如果是破坏性变更，明确列出用户迁移时需要做什么。
+6. 将草稿作为 PR 评论发布。如果仓库有明显的 CHANGELOG.md 或 docs/changelog 路径，附上一行“建议的变更日志位置”提示。
+
+草稿保持简短 — 2 到 4 句。过长的发布说明没人会看。
+- zSswKOZPeO [likely_untranslated]: 仅适用于需要它的 IdP（例如 Box）。托管配置只能存储 Google 桌面应用密钥（GOCSPX-…）；其他 IdP 请使用客户端密钥辅助工具。
+- zqw+hH0O5c [likely_untranslated]: 当 GitLab 上的仓库发生变化时，自动保持插件为最新版本
+- zx5wWelHwV [likely_untranslated]: Git 已安装，但启动失败。这通常意味着它无法读取自己的配置文件。如果下面的错误显示「Operation not permitted」，请在「系统设置」→「隐私与安全性」中授予 Claude 完全磁盘访问权限，然后重试。
+- zyAIzj6rGn [likely_untranslated]: 使用方向键移动到该方向上最近的点，使用 Page Up 和 Page Down 逐个浏览所有点
+- zznq7V6VvB [likely_untranslated]: 打开 WorkOS 设置
+
+## statsig
+suspect_count: 0
