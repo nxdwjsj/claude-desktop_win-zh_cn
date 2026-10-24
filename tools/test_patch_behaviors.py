@@ -339,7 +339,7 @@ def test_session_delete_runtime_is_injected() -> None:
     assert "function isAssistantContentNode" in content
     assert "[class*='font-claude-message']" in content
     assert "const direct = [...mainRoot().querySelectorAll(\"[data-message-author-role='user'],[data-author='user'],[data-testid*='human'],[data-testid*='prompt'],[data-testid*='question'],[class*='human-message'],[class*='user-message'],[class*='prompt-message']\")]" in content
-    assert "if (direct.length) return direct;" in content
+    assert "direct.filter((node) => !direct.some((other) => other !== node && other.contains(node)))" in content
     assert "if (!role && lastRole === \"用户\") role = \"Claude\"" in content
     assert "function renderTimeline" in content
     assert "function scheduleTimelineRender" in content

@@ -2374,7 +2374,9 @@ def session_delete_inject_script() -> str:
     const direct = [...mainRoot().querySelectorAll("[data-message-author-role='user'],[data-author='user'],[data-testid*='human'],[data-testid*='prompt'],[data-testid*='question'],[class*='human-message'],[class*='user-message'],[class*='prompt-message']")]
       .filter(visible)
       .filter((node) => messageRole(node) === "用户" || !messageRole(node));
-    if (direct.length) return direct;
+    if (direct.length) {
+      return direct.filter((node) => !direct.some((other) => other !== node && other.contains(node)));
+    }
     return messageNodes().filter((node) => messageRole(node) === "用户");
   }
 
